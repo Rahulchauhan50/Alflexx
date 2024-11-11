@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-custom-image {
+    background-image: url('/src/assets/Rectangle\ 731.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+.bg-custom1-image {
+    background-image: url('/src/assets/Rectangle\ 7311.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-custom2-image {
+    background-image: url('/src/assets/Rectangle\ 7312.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-custom3-image {
+    background-image: url('/src/assets/Rectangle\ 733.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-aboutus-image {
+    background-image: url('/src/assets/Rectangle\ 764.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-alulau-image {
+    background-image: url('/src/assets/alualu.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-alulau-image1 {
+    background-image: url('/src/assets/alualu1.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-t-image {
+    background-image: url('/src/assets/bg1.png');
+    background-size: cover;
+    background-position: center;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  @apply font-sans;
+}
